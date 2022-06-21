@@ -46,77 +46,78 @@
 ## 주요 기능
 
 * **팀 모집 페이지** 
-> !(./image/%ED%8C%80%EB%AA%A8%EC%A7%91.png)
+> ![슬라이드1](./image/%ED%8C%80%EB%AA%A8%EC%A7%91.png)
 
 <br/>
 
 * **프로젝트 과업 관리 페이지** 
-> !(./image/%ED%8C%80%EB%AA%A8%EC%A7%912.png)
+> ![슬라이드2](./image/%ED%8C%80%EB%AA%A8%EC%A7%912.png)
 
 <br/>
 
 * **로그인, 회원가입** 
-> !(./image/%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png)
+> ![슬라이드3](./image/%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png)
 
 <br/>
 
 * **마이페이지** 
-> !(./image/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80.png)
+> ![슬라이드4](./image/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80.png)
 
 <br/>
 
 * **개발지식공유 게시판 & 쪽지** 
-> !(./image/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%EA%B3%B5%EC%9C%A0%EB%B0%8F%EC%AA%BD%EC%A7%80.png)
+> ![슬라이드5](./image/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%EA%B3%B5%EC%9C%A0%EB%B0%8F%EC%AA%BD%EC%A7%80.png)
 
 <br/>
 
 * **공모 신청 & 처리** 
-> ![슬라이드1](./image)
+> ![슬라이드6](./image/%EA%B3%B5%EB%AA%A8%EC%8B%A0%EC%B2%AD%EB%B0%8F%EC%B2%98%EB%A6%AC.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **신고 회원 처리** 
+> ![슬라이드7](./image/%EC%8B%A0%EA%B3%A0%20%ED%9A%8C%EC%9B%90%20%EC%B2%98%EB%A6%AC.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **공지사항** 
+> ![슬라이드8](./image/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **QnA - 비회원** 
+> ![슬라이드9](./image/qna(%EB%B9%84%ED%9A%8C%EC%9B%90).png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **QnA - 회원, 관리자** 
+> ![슬라이드10](./image/qna(%ED%9A%8C%EC%9B%90%2C%EA%B4%80%EB%A6%AC%EC%9E%90).png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **이력서관리, 지원현황** 
+> ![슬라이드11](./image/%EC%9D%B4%EB%A0%A5%EC%84%9C%EA%B4%80%EB%A6%AC%EB%B0%8F%EC%A7%80%EC%9B%90%ED%98%84%ED%99%A9.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **구인공고, 기업회원 받은 이력서** 
+> ![슬라이드12](./image/%EA%B5%AC%EC%9D%B8%EA%B3%B5%EA%B3%A0%EB%B0%8F%EA%B8%B0%EC%97%85%ED%9A%8C%EC%9B%90%EC%9D%B4%EB%A0%A5%EC%84%9C.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **기업정보, 공고리스트** 
+> ![슬라이드13](./image/%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4%EB%B0%8F%EA%B3%B5%EA%B3%A0%EB%A6%AC%EC%8A%A4%ED%8A%B8.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **고수의 노하우 - 1** 
+> ![슬라이드14](./image/%EA%B3%A0%EC%88%98%EC%9D%98%EB%85%B8%ED%95%98%EC%9A%B0.png)
 
 <br/>
 
-* **개발지식공유 게시판 & 쪽지** 
-> ![슬라이드1](./image)
+* **고수의 노하우 - 2** 
+> ![슬라이드15](./image/%EA%B3%A0%EC%88%98%EC%9D%98%EB%85%B8%ED%95%98%EC%9A%B02.png)
 
+<br/>
 <br/>
 

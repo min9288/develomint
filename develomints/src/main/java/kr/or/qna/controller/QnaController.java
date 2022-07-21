@@ -14,22 +14,16 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.ibatis.annotations.ResultMap;
-import org.omg.PortableInterceptor.NON_EXISTENT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttribute;
-import org.springframework.web.context.annotation.SessionScope;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.sun.xml.internal.ws.api.message.Attachment;
-
 import kr.or.member.model.vo.Member;
-import kr.or.notice.vo.Notice;
-import kr.or.projectTeam.model.vo.ProjectTeamFileVO;
+import kr.or.projectTeam.vo.ProjectTeamFileVO;
 import kr.or.qna.service.QnaService;
 import kr.or.qna.vo.Faq;
 import kr.or.qna.vo.NonQna;

@@ -1,4 +1,4 @@
-package kr.or.projectTeam.model.vo;
+package kr.or.projectTeam.vo;
 
 import java.util.ArrayList;
 
@@ -9,10 +9,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProjectTeamApplyPageData {
-	private ArrayList<ProjectEntry> entryList;
+public class projectTeamMainPageData {
+	private ArrayList<ProjectTeam> list;
 	private String pageNavi;
 	private int start;
+	private ArrayList<projectDevLanguage> pdLangList;
 	private ArrayList<DevelopLanguage> developLangList;
-	private ArrayList<UseDevelopLanguage> udLangList;
+	private ArrayList<String> langList;
 }

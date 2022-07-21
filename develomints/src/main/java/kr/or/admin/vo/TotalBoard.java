@@ -6,7 +6,7 @@ import java.util.List;
 import kr.or.announce.vo.Announce;
 import kr.or.contest.vo.Contest;
 import kr.or.gosu.vo.GosuNotice;
-import kr.or.projectTeam.model.vo.ProjectTeam;
+import kr.or.projectTeam.vo.ProjectTeam;
 import kr.or.share.model.vo.Share;
 import lombok.Data;
 

@@ -1,6 +1,4 @@
-package kr.or.projectTeam.model.vo;
-
-import java.util.ArrayList;
+package kr.or.projectTeam.vo;
 
 import lombok.Data;
 

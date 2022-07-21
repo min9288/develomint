@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import kr.or.member.model.vo.Member;
-import kr.or.projectTeam.model.vo.ProjectTeamFileVO;
+import kr.or.projectTeam.vo.ProjectTeamFileVO;
 import kr.or.qna.dao.QnaDao;
 import kr.or.qna.vo.Faq;
 import kr.or.qna.vo.NonQna;

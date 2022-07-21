@@ -1,4 +1,4 @@
-package kr.or.projectTeam.model.vo;
+package kr.or.projectTeam.vo;
 
 import java.util.ArrayList;
 

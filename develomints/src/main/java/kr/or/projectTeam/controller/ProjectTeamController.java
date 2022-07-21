@@ -5,59 +5,37 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
-import java.util.UUID;
-import java.util.stream.Collectors;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletRequestWrapper;
-import javax.servlet.http.HttpSession;
 
-import lombok.AllArgsConstructor;
-import org.apache.commons.fileupload.servlet.ServletFileUpload;
-import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.google.gson.JsonObject;
-
 import kr.or.comment.vo.Report;
-import kr.or.member.model.vo.Member;
-import kr.or.projectTeam.model.service.ProjectTeamService;
-import kr.or.projectTeam.model.vo.DevelopLanguage;
-import kr.or.projectTeam.model.vo.ProjectEntry;
-import kr.or.projectTeam.model.vo.ProjectReview;
-import kr.or.projectTeam.model.vo.ProjectTask;
-import kr.or.projectTeam.model.vo.ProjectTaskViewData;
-import kr.or.projectTeam.model.vo.ProjectTeam;
-import kr.or.projectTeam.model.vo.ProjectTeamApplicantViewData;
-import kr.or.projectTeam.model.vo.ProjectTeamApplyPageData;
-import kr.or.projectTeam.model.vo.ProjectTeamFileVO;
-import kr.or.projectTeam.model.vo.ProjectTeamMember;
-import kr.or.projectTeam.model.vo.ProjectTeamNoticeComment;
-import kr.or.projectTeam.model.vo.ProjectTeamNoticeViewData;
-import kr.or.projectTeam.model.vo.Shortcuts;
-import kr.or.projectTeam.model.vo.TaskShortcuts;
-import kr.or.projectTeam.model.vo.projectDevLanguage;
-import kr.or.projectTeam.model.vo.projectTeamMainPageData;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import kr.or.projectTeam.service.ProjectTeamService;
+import kr.or.projectTeam.vo.DevelopLanguage;
+import kr.or.projectTeam.vo.ProjectEntry;
+import kr.or.projectTeam.vo.ProjectReview;
+import kr.or.projectTeam.vo.ProjectTask;
+import kr.or.projectTeam.vo.ProjectTaskViewData;
+import kr.or.projectTeam.vo.ProjectTeam;
+import kr.or.projectTeam.vo.ProjectTeamApplicantViewData;
+import kr.or.projectTeam.vo.ProjectTeamApplyPageData;
+import kr.or.projectTeam.vo.ProjectTeamMember;
+import kr.or.projectTeam.vo.ProjectTeamNoticeViewData;
+import kr.or.projectTeam.vo.Shortcuts;
+import kr.or.projectTeam.vo.TaskShortcuts;
+import kr.or.projectTeam.vo.projectDevLanguage;
+import kr.or.projectTeam.vo.projectTeamMainPageData;
 
 
 @Controller

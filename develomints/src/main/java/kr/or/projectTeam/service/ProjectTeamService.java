@@ -1,4 +1,4 @@
-package kr.or.projectTeam.model.service;
+package kr.or.projectTeam.service;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -12,24 +12,23 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import kr.or.comment.vo.Report;
-import kr.or.projectTeam.model.dao.ProjectTeamDao;
-import kr.or.projectTeam.model.vo.DevelopLanguage;
-import kr.or.projectTeam.model.vo.ProjectEntry;
-import kr.or.projectTeam.model.vo.ProjectReview;
-import kr.or.projectTeam.model.vo.ProjectTask;
-import kr.or.projectTeam.model.vo.ProjectTaskViewData;
-import kr.or.projectTeam.model.vo.ProjectTeam;
-import kr.or.projectTeam.model.vo.ProjectTeamApplicantViewData;
-import kr.or.projectTeam.model.vo.ProjectTeamApplyPageData;
-import kr.or.projectTeam.model.vo.ProjectTeamFileVO;
-import kr.or.projectTeam.model.vo.ProjectTeamMember;
-import kr.or.projectTeam.model.vo.ProjectTeamNoticeComment;
-import kr.or.projectTeam.model.vo.ProjectTeamNoticeViewData;
-import kr.or.projectTeam.model.vo.Shortcuts;
-import kr.or.projectTeam.model.vo.TaskShortcuts;
-import kr.or.projectTeam.model.vo.UseDevelopLanguage;
-import kr.or.projectTeam.model.vo.projectDevLanguage;
-import kr.or.projectTeam.model.vo.projectTeamMainPageData;
+import kr.or.projectTeam.dao.ProjectTeamDao;
+import kr.or.projectTeam.vo.DevelopLanguage;
+import kr.or.projectTeam.vo.ProjectEntry;
+import kr.or.projectTeam.vo.ProjectReview;
+import kr.or.projectTeam.vo.ProjectTask;
+import kr.or.projectTeam.vo.ProjectTaskViewData;
+import kr.or.projectTeam.vo.ProjectTeam;
+import kr.or.projectTeam.vo.ProjectTeamApplicantViewData;
+import kr.or.projectTeam.vo.ProjectTeamApplyPageData;
+import kr.or.projectTeam.vo.ProjectTeamMember;
+import kr.or.projectTeam.vo.ProjectTeamNoticeComment;
+import kr.or.projectTeam.vo.ProjectTeamNoticeViewData;
+import kr.or.projectTeam.vo.Shortcuts;
+import kr.or.projectTeam.vo.TaskShortcuts;
+import kr.or.projectTeam.vo.UseDevelopLanguage;
+import kr.or.projectTeam.vo.projectDevLanguage;
+import kr.or.projectTeam.vo.projectTeamMainPageData;
 
 @Service
 public class ProjectTeamService {

@@ -28,10 +28,6 @@ import kr.or.gosu.vo.GosuRequestProjectSub;
 import kr.or.gosu.vo.GosuRequestReview;
 import kr.or.gosu.vo.GosuReview;
 import kr.or.gosu.vo.GosuTalk;
-import kr.or.projectTeam.model.vo.DevelopLanguage;
-import kr.or.projectTeam.model.vo.ProjectTeam;
-import kr.or.projectTeam.model.vo.projectDevLanguage;
-import kr.or.projectTeam.model.vo.projectTeamMainPageData;
 
 @Service
 public class GosuService {

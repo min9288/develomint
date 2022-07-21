@@ -1,8 +1,6 @@
 package kr.or.admin.dao;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -19,7 +17,7 @@ import kr.or.gosu.vo.GosuNotice;
 import kr.or.member.model.vo.CertiVO;
 import kr.or.member.model.vo.Member;
 import kr.or.notice.vo.Notice;
-import kr.or.projectTeam.model.vo.ProjectTeam;
+import kr.or.projectTeam.vo.ProjectTeam;
 import kr.or.qna.vo.Qna;
 import kr.or.share.model.vo.Share;
 import kr.or.qna.vo.NonQna;

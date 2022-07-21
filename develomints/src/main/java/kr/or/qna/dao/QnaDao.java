@@ -8,7 +8,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import kr.or.projectTeam.model.vo.ProjectTeamFileVO;
+import kr.or.projectTeam.vo.ProjectTeamFileVO;
 import kr.or.qna.vo.Faq;
 import kr.or.qna.vo.Qna;
 import kr.or.qna.vo.NonQna;

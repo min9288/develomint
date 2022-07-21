@@ -7,14 +7,9 @@ import java.util.HashMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.multipart.MultipartFile;
 
 import kr.or.company.vo.Company;
-import kr.or.contest.vo.Contest;
-import kr.or.contest.vo.ContestList;
-import kr.or.contest.vo.ContestMember;
 import kr.or.gosu.vo.GosuNotice;
-import kr.or.member.controller.RandomPassword;
 import kr.or.member.model.dao.MemberDao;
 import kr.or.member.model.vo.BoardPage;
 import kr.or.member.model.vo.CertiVO;
@@ -28,7 +23,6 @@ import kr.or.member.model.vo.MyProjectPage;
 import kr.or.member.model.vo.ProjectLikes;
 import kr.or.member.model.vo.ProjectLikesPage;
 import kr.or.member.model.vo.ProjectPageVO;
-import kr.or.projectTeam.model.vo.ProjectTeam;
 import kr.or.share.model.vo.Share;
 
 @Service
